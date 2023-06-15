@@ -11,4 +11,12 @@ Car.prototype.chargeBattery = function (chargeTo) {
   return this.charge;
 };
 
+Car.prototype.accelerate = function () {
+  this.speed += 20;
+  this.charge--;
+  console.log(
+    `${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%'`
+  );
+};
+
 const EV = new Car('Tesla', 120, 23);
