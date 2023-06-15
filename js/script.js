@@ -5,3 +5,5 @@ const Car = function (make, speed, charge) {
   this.speed = speed;
   this.charge = charge;
 };
+
+const EV = new Car('Tesla', 120, 23);
