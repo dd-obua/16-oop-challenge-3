@@ -21,5 +21,15 @@ Car.prototype.accelerate = function () {
 
 const EV = new Car('Tesla', 120, 23);
 EV.accelerate();
+EV.accelerate();
+EV.accelerate();
+EV.accelerate();
+EV.accelerate();
+console.log();
 
 const EC = new Car('XYZ', 100, 90);
+EC.accelerate();
+EC.accelerate();
+EC.accelerate();
+EC.accelerate();
+EC.accelerate();
