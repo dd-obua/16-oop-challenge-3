@@ -39,5 +39,3 @@ EV.prototype.accelerate = function () {
 };
 
 const car1 = new EV('Tesla', 120, 23);
-
-const car2 = new EV('PXP', 200, 90);
