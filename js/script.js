@@ -35,23 +35,23 @@ EV.prototype.accelerate = function () {
   );
 };
 
-const car1 = new EV('Tesla', 120, 23);
-console.log(car1);
+const tesla = new EV('Tesla', 120, 23);
+console.log(tesla);
 
-car1.chargeBattery(90);
-console.log(car1);
+tesla.chargeBattery(90);
+console.log(tesla);
 console.log();
 
-car1.accelerate();
-car1.accelerate();
-car1.accelerate();
-car1.accelerate();
-car1.accelerate();
+tesla.accelerate();
+tesla.accelerate();
+tesla.accelerate();
+tesla.accelerate();
+tesla.accelerate();
 console.log();
 
-car1.break();
-car1.break();
-car1.break();
-car1.break();
-car1.break();
+tesla.break();
+tesla.break();
+tesla.break();
+tesla.break();
+tesla.break();
 console.log();
