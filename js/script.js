@@ -39,3 +39,4 @@ EV.prototype.accelerate = function () {
 };
 
 const car1 = new EV('Tesla', 120, 23);
+console.log(car1);
