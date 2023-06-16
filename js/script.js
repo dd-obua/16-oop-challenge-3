@@ -22,3 +22,7 @@ const EV = function (make, speed, charge) {
 
 EV.prototype = Object.create(Car.prototype);
 EV.prototype.constructor = EV;
+
+EV.prototype.chargeBattery = function (chargeTo) {
+  this.charge = chargeTo;
+};
