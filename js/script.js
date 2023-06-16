@@ -18,3 +18,8 @@ Car.prototype.accelerate = function () {
     `${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%'`
   );
 };
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
