@@ -30,7 +30,7 @@ const EV = function (make, speed, charge) {
   this.charge = charge;
 };
 
-EV.prototype = Object.create(Car.prototype);
+EV.prototype = Object.create(Car.prototype); // make EV the child of Car
 
 EV.prototype.chargeBattery = function (chargeTo) {
   this.charge = chargeTo;
