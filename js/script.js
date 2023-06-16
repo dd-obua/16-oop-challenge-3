@@ -20,7 +20,7 @@ Car.prototype.accelerate = function () {
 };
 
 Car.prototype.break = function () {
-  this.charge--;
+  this.speed -= 5;
   console.log(
     `${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%`
   );
@@ -49,3 +49,9 @@ car1.accelerate();
 car1.accelerate();
 car1.accelerate();
 console.log();
+
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+car1.break();
