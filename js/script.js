@@ -26,3 +26,8 @@ EV.prototype.constructor = EV;
 EV.prototype.chargeBattery = function (chargeTo) {
   this.charge = chargeTo;
 };
+
+EV.prototype.accelerate = function () {
+  this.speed += 20;
+  this.charge--;
+};
