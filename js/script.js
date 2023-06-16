@@ -13,6 +13,7 @@ Car.prototype.chargeBattery = function (chargeTo) {
 
 Car.prototype.accelerate = function () {
   this.speed += 20;
+  this.charge--;
   console.log(
     `${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%`
   );
@@ -47,3 +48,4 @@ car1.accelerate();
 car1.accelerate();
 car1.accelerate();
 car1.accelerate();
+console.log();
