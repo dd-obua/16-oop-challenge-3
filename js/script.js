@@ -14,3 +14,8 @@ Car.prototype.break = function () {
   this.speed -= 5;
   console.log(`${this.make} going at ${this.speed} km/h`);
 };
+
+const EV = function (make, speed, charge) {
+  Car.call(this, make, speed);
+  this.charge = charge;
+};
