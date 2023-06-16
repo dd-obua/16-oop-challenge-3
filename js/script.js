@@ -40,3 +40,11 @@ console.log(car1);
 
 car1.chargeBattery(90);
 console.log(car1);
+console.log();
+
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+car1.accelerate();
+console.log();
