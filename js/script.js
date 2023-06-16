@@ -48,3 +48,10 @@ car1.accelerate();
 car1.accelerate();
 car1.accelerate();
 console.log();
+
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+car1.break();
+console.log();
